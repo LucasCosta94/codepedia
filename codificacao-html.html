@@ -5,136 +5,183 @@
         <title>Codepedia | html</title>
     </head>
     <body>
-    
+       <h1> Lista de tags para consulta</h1><br>
+
+    <nav>
+        <li><a href="#tag-a">Exemplo tag a</a></li>
+        <li><a href="#tag-img">Exemplo tag img</a></li>
+        <li><a href="#tag-p">Exemplo tag p</a></li>
+        <li><a href="#tag-div">Exemplo tag div</a></li>
+        <li><a href="#tag-li">Exemplo tag li</a></li>
+        <li><a href="#tag-ul">Exemplo tag ul</a></li>
+        <li><a href="#tag-ol">Exemplo tag ol</a></li>       
+        <li><a href="#tag-span">Exemplo tag span</a></li>
+        <li><a href="#tag-header">Exemplo tag header</a></li>
+        <li><a href="#tag-section">Exemplo tag section</a></li>
+        <li><a href="#tag-article">Exemplo tag article</a></li>
+        <li><a href="#tag-nav">Exemplo tag nav</a></li>
+    </nav><br><br>
+
         <h1>codificação html</h1>
-       
+        <br><br>
+
         <p>Esta página, irá servir para consultar os códigos salvos</p>
+        <br>
+        
+        <h2 id="tag-a">Tag a </h2>
+        <p>Tag (a) define um hiperlink, que é usado para vincular de uma página a outra</p>
         <pre>
             <code>
-                &lt;!-- Tag (a) define um hiperlink, que é usado para vincular de uma página a outra &lt;a&gt; --&gt;
                 &lt;a href="https://www.exemplo.com"&gt;Visite nosso site&lt;/a&gt;
             </code>
+        </pre>
 
+        <h2 id="tag-img">Tag img</h2>
+        <p> A tag (img) é usada para incorporar uma imagem em uma página HTML. As imagens não são <br>tecnicamente
+             inseridas em uma página da web, as imagens estão vinculadas a páginas da web. A img tag <br>cria um
+            espaço de retenção para a imagem referenciada.A img tag tem dois atributos obrigatórios:<br>
+            src - Especifica o caminho para a imagem<br>
+            alt - Especifica um texto alternativo para a imagem, se a imagem por algum motivo não puder ser exibida</p>
+        <pre>
             <code>
-                &lt;!-- A tag (img) é usada para incorporar uma imagem em uma página HTML.
-                        As imagens não são tecnicamente inseridas em uma página da web; 
-                        as imagens estão vinculadas a páginas da web. A img tag cria um
-                        espaço de retenção para a imagem referenciada.
-                        A img tag tem dois atributos obrigatórios:
-                        src - Especifica o caminho para a imagem
-                        alt - Especifica um texto alternativo para a imagem, se a imagem por 
-                        algum motivo não puder ser exibida &lt;img&gt; --&gt;
                 &lt;img src="img_girl.jpg" alt="Girl in a jacket" width="500" height="600"&gt;
             </code>
-
+        </pre>
+        
+        <h2 id="tag-p">Tag p</h2>
+        <p>Tag (p) define um parágrafo</p>
+        <pre>
             <code>
-                &lt;!-- Tag (p) define um parágrafo &lt;p&gt; --&gt;
-                &lt;p This is some text in a paragraph. /p&gt;               
+                &lt;p&gt;This is some text in a paragraph.&lt;/p&gt;               
             </code>
+        </pre>
+
+        <h2 id="tag-div">Tag div</h2>
+        <p>A tag (div) define uma divisão ou seção em um documento HTML. A div tag é usada como um <br>
+            contêiner para elementos HTML, que são então estilizados com CSS ou manipulados com JavaScript.
+            A div tag é facilmente estilizada usando o atributo class ou id.</p>
+        <pre>    
+            <code>
+                &lt;div class="myDiv"&gt;
+                    &lt;h2&gt;This is a heading in a div element.&lt;/h2&gt;
+                    &lt;p&gt;
+                        This is some text in a div element.
+                    &lt;/p&gt;
+                &lt;/div&gt;               
+            </code>
+        </pre>
+
+        <h2 id="tag-li">Tag li</h2>
+            <p>Tag (li) define um item da lista</p> 
             
+        <pre>
             <code>
-                &lt;!-- A tag (div) define uma divisão ou seção em um documento HTML.
-                    A div tag é usada como um contêiner para elementos HTML – que são então estilizados 
-                    com CSS ou manipulados com JavaScript.
-                    A div tag é facilmente estilizada usando o atributo class ou id. &lt;div&gt; --&gt;
-                &lt;
-
-                div class="myDiv"
-                    h2 This is a heading in a div element/h2
-                    p This is some text in a div element./p
-                /div&gt;               
+                &lt;li&gt; Coffee &lt;/li&gt;
+                &lt;li&gt; Tea &lt;/li&gt;
+                &lt;li&gt; Milk &lt;/li&gt;
             </code>
-            
-            <code>
-                &lt;!--  tag (ul) define uma lista não ordenada com marcadores , tag (li) define um item da lista,
-                 tag é usada dentro de listas ordenadas ( ol ),ou em listas não ordenadas ( ul ) e em listas de menu 
-                 ( menu ). &lt;ul e li &gt; --&gt;
-                &lt;
-                ul
-                    li Coffee /li 
-                    li Tea /li
-                    li Milk /li
-                /ul&gt;               
-            </code>
+        </pre>
 
+        <h2 id="tag-ul">Tag ul</h2>
+        <p>Tag (ul) define uma lista não ordenada com marcadores</p>
+        <pre>
             <code>
-                &lt;!-- tag (ol) tem Duas listas ordenadas diferentes a primeira lista começa em 1 e a 
-                segunda começa em 50, tag (li) define um item da lista, tag é usada dentro de 
-                listas ordenadas ( ol ), listas não ordenadas ( ul ) e em listas de menu ( menu ). &lt;ol e 
-                li&gt; --&gt;
-                &lt;
-                ol
-                    li Coffee /li 
-                     li Tea /li
-                     li Milk /li 
-                /ol 
-                  
-                ol start="50"
-                    li Coffee /li
-                    li Tea /li
-                    li Milk /li 
-                /ol
-                &gt;               
+                &lt;ul&gt;  
+                    
+                &lt;/ul&gt;               
+            </code>
+        </pre>
+
+        <h2 id="tag-ol">Tag ol</h2>
+        <p>tag (ol) tem Duas listas ordenadas diferentes a primeira lista começa em 1 e a segunda começa em 50</p>
+        <pre>
+            <code>
+                &lt;ol&gt; 
+                     
+                &lt;/ol&gt;
+
+                &lt;ol start="50"&gt; 
+                      
+                &lt;/ol&gt;               
             </code> 
+        </pre>
 
+        <h2 id="tag-span">Tag span</h2>
+        <p>tag (span) é usado para colorir uma parte de um texto</p>
+        <pre>
             <code>
-                &lt;!-- tag (span) é usado para colorir uma parte de um texto &lt;span&gt; --&gt;
-                &lt;p My mother has span style="color:blue" blue /span  eyes./p&gt;               
+                &lt;p&gt;
+                    My mother has &lt;span style="color:blue"&gt; blue &lt;/span&gt; eyes.
+                &lt;/p&gt;               
             </code>
+        </pre>
 
+        <h2 id="tag-header">Tag header</h2>
+        <p>tag (header)  representa um contêiner para conteúdo introdutório ou um conjunto de links <br>
+            de navegação. Um header elemento normalmente contém: um ou mais elementos de título ( h1 - h6 ),<br>
+            logotipo ou ícone, informações de autoria</p>
+        <pre>
             <code>
-                &lt;!-- tag (header)  representa um contêiner para conteúdo introdutório ou um conjunto 
-                    de links de navegação. Um header elemento normalmente contém: um ou mais elementos de 
-                    título ( h1 - h6 ), logotipo ou ícone, informações de autoria &lt;header&gt; --&gt;
-                &lt; 
-                header
-                    h1 A heading here /h1
-                    p Posted by John Doe /p
-                    p Some additional information here /p
-                /header&gt;               
+                &lt;header&gt; 
+                    &lt;h1&gt;A heading here&lt;/h1&gt; 
+                    &lt;p&gt;Posted by John Doe&lt;/p&gt; 
+                    &lt;p&gt;Some additional information here&lt;/p&gt; 
+                &lt;/header&gt;               
             </code>
+        </pre>
 
+
+        <h2 id="tag-footer">Tag footer</h2>
+        <p>tag (footer) define um rodapé para um documento ou seção</p>
+        <pre>
             <code>
-                &lt;!-- tag (footer) define um rodapé para um documento ou seção &lt;footer&gt; --&gt;
-                &lt;
-                footer
-                    p Author: Hege Refsnes /p 
-                    p  a href="mailto:hege@example.com">hege@example.com /a /p
-                /footer&gt;               
+                &lt;footer&gt;
+                    &lt;p&gt; Author: Hege Refsnes &lt;/p&gt; 
+                    &lt;p&gt; &lt;a href="mailto:hege@example.com">hege@example.com &lt;/a&gt; &lt;/p&gt;
+                &lt;/footer&gt;               
             </code>
-
+        </pre>
+       
+        <h2 id="tag-section">Tag section</h2>
+        <p> tag (section) define uma seção em um documento podendo ter mais seções</p>
+        <pre>
             <code>
-                &lt;!-- tag (section) define uma seção em um documento podendo ter mais seções &lt;section&gt; --&gt;
-                &lt;
-                section
-                    h2 WWF History /h2 
-                    p The World Wide Fund for Nature (WWF) is an international organization 
-                    working on issues regarding the conservation, research and restoration 
-                    of the environment, formerly named the World Wildlife Fund. WWF was founded in 1961. /p
-                /section&gt;               
+                &lt;section&gt;
+                    &lt;h2&gt; WWF History &lt;/h2&gt; 
+                    &lt;p&gt; 
+                        The World Wide Fund for Nature (WWF) is an international organization 
+                        working on issues regarding the conservation, research and restoration 
+                        of the environment, formerly named the World Wildlife Fund. WWF was founded in 1961.
+                    &lt;/p&gt;
+                &lt;/section&gt;               
             </code>
+        </pre>
 
+        <h2 id="tag-article">Tag article</h2>
+        <p>tag (article) especifica conteúdo independente. Um artigo deve fazer sentido por si só <br>
+            e deve ser possível distribuí-lo de forma independente do resto do site.</p>
+        <pre>
             <code>
-                &lt;!-- tag (article) especifica conteúdo independente.
-                    Um artigo deve fazer sentido por si só e deve ser possível distribuí-lo 
-                    de forma independente do resto do site. &lt;article&gt; --&gt;
-                &lt;
-                article
-                    h2 Google Chrome /h2 
-                    p Google Chrome is a web browser developed by Google, released in 2008. Chrome is the 
-                    world's most popular web browser today! /p
-                /article&gt;               
+                &lt;article&gt;
+                    &lt;h2 Google Chrome &lt;/h2&gt;
+                    &lt;p&gt; 
+                        Google Chrome is a web browser developed by Google, released in 2008. Chrome is the 
+                        world's most popular web browser today! 
+                    &lt;/p&gt;
+                &lt;/article&gt;              
             </code>
+        </pre>
 
+        <h2 id="tag-nav">Tag nav</h2>
+        <p>tag (nav) define um conjunto de links de navegação.</p>
+        <pre>
             <code>
-                &lt;!-- tag (nav) define um conjunto de links de navegação. &lt;nav&gt; --&gt;
-                &lt;
-                nav
-                    a href="/html/">HTML /a |
-                    a href="/css/">CSS /a |
-                    a href="/js/">JavaScript /a |
-                    a href="/python/">Python /a
-                /nav&gt;               
+                &lt;nav&gt;
+                    &lt;a href="/html/">HTML &lt;/a&gt; 
+                    &lt;a href="/css/">CSS &lt;/a&gt; 
+                    &lt;a href="/js/">JavaScript &lt;/a&gt; 
+                    &lt;a href="/python/">Python &lt;/a&gt;
+                &lt;/nav&gt;               
             </code>
 
         </pre>
